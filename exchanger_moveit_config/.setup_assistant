@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: exchanger
+    relative_path: urdf/exchanger.urdf
+  srdf:
+    relative_path: config/exchanger.srdf
+  package_settings:
+    author_name: benson
+    author_email: benson@qq.com
+    generated_timestamp: 1752326110
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

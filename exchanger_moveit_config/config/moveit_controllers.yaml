@@ -1,0 +1,13 @@
+# MoveIt uses this configuration for controller management
+
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - exchanger_group_controller
+
+  exchanger_group_controller:
+    type: FollowJointTrajectory
+    joints:
+      - joint2
+      - joint3
