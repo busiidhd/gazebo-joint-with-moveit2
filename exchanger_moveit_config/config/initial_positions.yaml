@@ -1,5 +1,0 @@
-# Default initial positions for exchanger's ros2_control fake system
-
-initial_positions:
-  joint2: 0
-  joint3: 0
