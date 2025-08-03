@@ -16,3 +16,13 @@ Unable to identify any set of controllers that can actuate the specified joints 
 https://blog.csdn.net/weixin_44836543/article/details/132523970?sharetype=blog&shareId=132523970&sharerefer=APP&sharesource=2403_88972552&sharefrom=link
 注意：仿真的时候必须检查1：urdf文件可以在moveit规划（这个是moveit_setup_assistant生成的）
 2：gazebo能显示机械臂，3,使用rqt检查节点有没有联系，否则会出现上面的问题
+
+构建说明：
+第一步：
+colcon build --packages-select openvino_engine
+二：
+source install/setup.bash
+三：
+colcon build
+四：(可以根据需求来)
+source install/setup.bash
