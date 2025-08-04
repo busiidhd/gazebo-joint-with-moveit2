@@ -20,4 +20,4 @@
 ![image](doc/example.png)
 ![image](doc/blue_light.png)
 
-所有代码正在测试中
+项目问题：所有代码正在测试中，代码规范性差且不整洁，一些小问题未能解决
