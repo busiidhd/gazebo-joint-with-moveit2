@@ -14,11 +14,11 @@
 ### 可以在exchanger（兑矿口）模型中修改矿口的灯条颜色
 ### The color of the light bar at the ore port can be modified in the exchanger (ore port) model
 >方式：把灯条当做一个固定的link，修改它的gazebo属性即可
-
 >Method: Treat the light strip as a fixed link and modify its gazebo attribute
 
 ![image](doc/example.png)
 当link_li的gazebo颜色属性设置为Blue：
+When the gazebo color attribute of link_li is set to Blue:
 ![image](doc/blue_light.png)
 
 # 写在后面
