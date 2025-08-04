@@ -16,7 +16,7 @@
 >方式：把灯条当做一个固定的link，修改它的gazebo属性即可
 
 >Method: Treat the light strip as a fixed link and modify its gazebo attribute
-
+当link_li的gazebo颜色属性设置为Blue
 ![image](doc/example.png)
 ![image](doc/blue_light.png)
 
