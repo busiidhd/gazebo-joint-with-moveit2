@@ -1,0 +1,7 @@
+# irayple hik
+camera: irayple
+
+serial_log_level: DEBUG
+detector_log_level: INFO
+exchange_log_level: INFO
+plan_log_level: INFO

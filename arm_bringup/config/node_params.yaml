@@ -1,0 +1,28 @@
+/camera_node:
+  ros__parameters:
+    camera_info_url: package://arm_bringup/config/ost.yaml
+    use_sensor_data_qos: true # irayple 相机如果不设置该字段图像会为全黑，不懂为啥
+    camera_name: narrow_stereo
+    exposure_time: 2000.0    #必须带一位小数,不然相机会白花花
+    gain: 6.0                #室内2000+6.0
+
+/serial_driver:
+  ros__parameters:
+    device_name: /dev/ttyUSB0
+    timestamp_offset: 0.0
+    joint_zero_offset:  # 零点轴 “-”号和数字不要有空格
+      - 0.00
+      - -0.06453     #  0.069638  # 0.17453(电)
+      - -0.25024    # -0.281339  # -0.34907（电）
+      - 0.00        
+      - -0.34664     #1.01736  # 1.25664（电控）
+      - 0.00
+
+/exchange_slot_detector:
+  ros__parameters:
+    binary_thres: 60
+    cmd: 1
+    debug: true
+    min_area: 600.0
+    slot_conf_thresh: 0.6
+    slot_model_name: rock14.onnx
