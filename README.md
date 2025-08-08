@@ -19,8 +19,6 @@
 
 ![image](doc/example.png)
 当link_li的gazebo颜色属性设置为Blue：
-
-When the gazebo color attribute of link_li is set to Blue:
 ![image](doc/blue_light.png)
 
 ### 启动模型检测节点，可检测兑换框
