@@ -26,6 +26,6 @@ When the gazebo color attribute of link_li is set to Blue:
 # 写在后面
 # Write it at the back
 ![image](doc/engine.png)
-项目问题：所有代码正在测试中，代码规范性差且不整洁，一些小问题未能解决
+项目问题：所有代码正在测试中，代码规范与可读性差且不整洁，一些小问题未能解决，比如节点名称重复，命名空间冲突。
 
 项目用于学习
