@@ -24,7 +24,8 @@
 ### 启动模型检测节点，可检测兑换框
 ### Start the model detection node to detect the exchange box
 ![image](doc/detect.png)
-该图片是使用rqt 获取模型检测结果的话题
+该图片是使用rqt 获取模型检测结果的话题，以下是其他话题内容
+![image](doc/detect_1.png)![image](doc/detect_2.png)
 >该模型有问题，识别出错，主要说明的是检测可以使用。
 >
 >问题：在gazebo环境中，兑换框灯条显示不明显，可能影响模型识别
